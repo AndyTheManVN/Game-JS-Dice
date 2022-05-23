@@ -2,3 +2,15 @@ body {
     background-color:aqua;
     text-align: center;    
 }
+
+h1 {
+    font-size: 40px;
+    color: blue;
+    margin: 50px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+}

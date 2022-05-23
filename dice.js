@@ -9,12 +9,11 @@ document.querySelectorAll("img")[1].setAttribute("src", "image/"+image2)
 if (x>y){
     document.querySelector("h1").innerHTML = "Player 1 win";
 }
-
-if (x<y)
+else if (x<y)
 {
     document.querySelector("h1").innerHTML = "Player 2 win";
 }
-if (x=y)
+else
 {
     document.querySelector("h1").innerHTML = "Draw";
 }
